@@ -73,12 +73,12 @@ header {
 .billboard {
     background-image: url(../images/food.jpg);
     padding: 0;
-    background-size: 25rem;
+    background-size: 100%;
     background-repeat:  no-repeat;  
     width: 100%;
     background-position: center;
     overflow: hidden;
-    height: 20rem;
+    height: 18rem;
 }
 
 /*.billboard h1 {
