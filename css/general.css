@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Macondo swash, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-family: 'Macondo Swash Caps', cursive;
 }
 
@@ -120,7 +120,7 @@ div {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: white;
+    /*background-color: white;*/
     border-color:white;
 }
 
