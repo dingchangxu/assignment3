@@ -26,7 +26,6 @@ html {
 
 img {
 	width: 100%;
-    display: center;
 }
 
 body {
@@ -36,7 +35,7 @@ body {
 
 header {
     overflow: hidden;
-    background-color: #cccc66;
+    /*background-color: #cccc66;*/
 }
 
 .logo {
@@ -48,12 +47,11 @@ header {
 }
 
 .nav-top {
-    background-color:  ;
     overflow:  hidden;
 }
 
 .nav-top ul {
-    margin: 1.5rem 0;
+    margin: 0 0;
     padding: 0;
 	text-align: center;
 }
@@ -80,20 +78,27 @@ header {
     width: 100%;
     background-position: center;
     overflow: hidden;
+    height: 20rem;
 }
 
-.billboard h1 {
+/*.billboard h1 {
     margin: 6rem 0;
-}
+} */
 
 h3 {
     color: #cccc66;
+    margin: 1rem;
 }
 
 article {
     margin: 0;
-    padding: 1.5rem 5%;
+    padding: 1rem 5%;
 }
+
+p {
+    margin: 1rem;
+}
+
 
 div {
     margin: 0;
@@ -103,11 +108,12 @@ div {
     
 }
 
-h2 {
+/*h2 {
     text-align:  center;
     margin: 3rem 0 0;
     padding: 0;
-}
+}*/
+
 .boxes {
     margin:0;
     padding:0;
