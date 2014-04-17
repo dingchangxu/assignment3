@@ -26,6 +26,8 @@ img {
 	width: 100%;
 }
 
+
+
 body {
     margin: 0;
     padding: 0; 
@@ -136,39 +138,39 @@ p {
 
 
 
-.bucket2 {
+.bucket1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
     list-style: none;
-    background-color: red; /* Visual Aid */
+    background-color: white; /* Visual Aid */
 }
 
-.bucket2 li {
+.bucket1 li {
     float: left;
     width: 45%;
     margin: 0 10% 1.5rem 0;
     padding: 0;
 }
 
-.bucket2 li:nth-child(even) {
+.bucket1 li:nth-child(even) {
     margin: 0;
 }
 
-.bucket2 a,
-.bucket2 a:link,
-.bucket2 a:visited {
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
     display: block;
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: yellow; /* Visual Aid */
+    background-color: white; /* Visual Aid */
     margin: 0;
     padding: 100% 0 0; /* height of image ÷ by width = % */
 }
 
-.1 {
-    background-image: url(../images/placeholder-1.svg);  
+.one {
+    background-image: url(../images/pad thai.jpg);  
 }
 
 .two {
