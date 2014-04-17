@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <header class="billboard">
+    <header class="food">
         
         <a href="index.html">
             <img src="images/logo1.svg" alt="Logo" class="logo">
@@ -22,12 +22,14 @@
             </ul>
         </nav>
     
+        <h1>The Tastiest Food!</h1>
+        
     </header>
     
     <!--<div class="billboard"></div>-->
     
     <article>
-        <h3>Traditional Thai Cuisine</h3>
+        <h2><strong>Traditional Thai Cuisine</strong></h2>
         <p>Our menu includes the best of Thai cuisine with only the freshest
         ingredients, including:</p>
         
@@ -39,94 +41,170 @@
             <li>Tender chicken wrapped in pandanus leaves (gai haw bai toey)</li>
             • And much more!</ul>
         
-                		  <!-- it works the same with all jquery version from 1.3.1 to 2.0.3 -->
-    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-    <!-- use jssor.slider.mini.js (39KB) or jssor.sliderc.mini.js (31KB, with caption, no slideshow) or jssor.sliders.mini.js (26KB, no caption, no slideshow) instead for release -->
-    <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
-    <script type="text/javascript" src="../js/jssor.core.js"></script>
-    <script type="text/javascript" src="../js/jssor.utils.js"></script>
-    <script type="text/javascript" src="../js/jssor.slider.js"></script>
-    <script>
-
-        jQuery(document).ready(function ($) {
-            var options = {
-                $AutoPlay: true,
-                $DragOrientation: 3                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-            };
-
-            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-        });
-    </script>
-    <div id="slider1_container" style="position: relative; width: 500px;
-        height: 350px;">
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 300px; height: 300px;
-            overflow: hidden;">
-            <div><img u="image" src="../images/bbq-chicken.jpg" /></div>
-            <div><img u="image" src="../images/mango-salad.jpg" /></div>
-            <div><img u="image" src="../images/mix-seafood.jpg" /></div>
-            <div><img u="image" src="../images/pad-thai.jpg" /></div>
-            <div><img u="image" src="../images/red-curry-shrimp.jpg" /></div>
-            <div><img u="image" src="../images/red-curry-with-shrimp-in-pineapple.jpg" /></div>
-            <div><img u="image" src="../images/shrimp-with-eggplant.jpg" /></div>
-            <div><img u="image" src="../images/shrimp-with-garlic.jpg" /></div>
-        </div>
-        <a style="display: none" href="http://www.jssor.com">jQuery Slider</a>
-    </div>
+        
+        <h2>Stacked buckets as Figure</h2>
         
         
-        <div class="boxes">  
+       <div class="bucket1">
+    
+            <!--<a href="#">-->
+                <figure>
+                <img src="images/pad thai.jpg" alt="pad thai">
+                <figcaption><strong>Pad Thai:</strong> Stir fried soft noodles with eggs, shrimp, sprouts and peanut.</figcaption>
+                </figure>
+            </a>
+
+            <!--<a href="#">-->
+                <figure>
+                <img src="images/red curry shrimp.jpg" alt="red curry shrimp">
+                <figcaption><strong>Chu Chee Ta lae/Goong:</strong> Red curry with mixed seafood or shrimp and lime leaves.</figcaption>
+                </figure>
+            </a>
+
+            <!--<a href="#">-->
+                <figure>
+                <img src="images/shrimp with garlic.jpg" alt="shrimp with garlic">
+                <figcaption><strong>Tod Gratiem Ta lae/Goong:</strong> Mixed seafood or Shrimp in garlic and pepper sauce.</figcaption>
+                </figure>
+            </a>
+
+            <!--<a href="#">-->
+                <figure>
+                <img src="images/mix seafood.jpg" alt="mix seafood">
+                <figcaption><strong>Tod Gratiem Ta lae/Goong2:</strong> Mixed seafood or Shrimp in garlic and pepper sauce.</figcaption>
+                </figure>
+            </a>
+           
+                 <!--<a href="#">-->
+                <figure>
+                <img src="images/bbq chicken.jpg" alt="bbq chicken">
+                <figcaption><strong>Gai haw Bai Toey:</strong> Marinated BBQ chicken with a sesame dipping sauce.</figcaption>
+                </figure>
+            </a>
+           
+                 <!--<a href="#">-->
+                <figure>
+                <img src="images/red curry with shrimp in pineapple.jpg" alt="red curry with shrimp in pineapple">
+                <figcaption><strong>Gaeng Supparot:</strong> Red curry shrimp served in pineapple.</figcaption>
+                </figure>
+            </a>
+           
+                 <!--<a href="#">-->
+                <figure>
+                <img src="images/shrimp with eggplant.jpg" alt="shrimp with eggplant">
+                <figcaption><strong>Goong Pad Makhua-yao:</strong> Shrimp with eggplant in sweet basil and chilli sauce.</figcaption>
+                </figure>
+            </a>
+           
+    
+        
+        
+        
+        
+        
+        
+        <!--<a href="#">
+            <figure class="bucket3">
+                <img src="images/pad thai.jpg" alt="pad thai">
+                <figcaption><strong>Pad Thai:</strong> Stir fried soft noodles with eggs, shrimp, sprouts and peanut.</figcaption>
+            </figure>
+        </a>
+        
+       <a href="#">
+            <figure class="bucket3">
+                <img src="images/red curry shrimp.jpg" alt="red curry shrimp">
+                <figcaption><strong>Chu Chee Ta lae/Goong:</strong> Red curry with mixed seafood or shrimp and lime leaves.</figcaption>
+            </figure>
+        </a>
+        
+      <a href="#">
+            <figure class="bucket3">
+                <img src="images/shrimp with garlic.jpg" alt="shrimp with garlic">
+                <figcaption><strong>Tod Gratiem Ta lae/Goong:</strong> Mixed seafood or Shrimp in garlic and pepper sauce.</figcaption>
+            </figure>
+        </a>
+
+        <a href="#">
+            <figure class="bucket3">
+                <img src="images/mix seafood.jpg" alt="mix seafood">
+                <figcaption><strong>Tod Gratiem Ta lae/Goong2:</strong> Mixed seafood or Shrimp in garlic and pepper sauce.</figcaption>
+            </figure>
+        </a>
+        
+        <a href="#">
+            <figure class="bucket3">
+                <img src="images/bbq chicken.jpg" alt="bbq chicken">
+                <figcaption><strong>Gai haw Bai Toey:</strong> Marinated BBQ chicken with a sesame dipping sauce.</figcaption>
+            </figure>
+        </a>
+
+        <a href="#">
+            <figure class="bucket3">
+                <img src="images/red curry with shrimp in pineapple.jpg" alt="red curry with shrimp in pineapple">
+                <figcaption><strong>Gaeng Supparot:</strong> Red curry shrimp served in pineapple.</figcaption>
+            </figure>
+        </a>
+
+        <a href="#">
+            <figure class="bucket3">
+                <img src="images/shrimp with eggplant.jpg" alt="shrimp with eggplant">
+                <figcaption><strong>Goong Pad Makhua-yao:</strong> Shrimp with eggplant in sweet basil and chilli sauce.</figcaption>
+            </figure>
+        </a>-->
+
+
+
+
+
+
+
+
+        <!--<div class="boxes">  
         <div class="box1">
-            <img src="images/mango-salad.jpg" alt="mango salad">
-        <p>Mango Salad</p>
+            <img src="images/pad-thai.jpg" alt="pad-thai">
+        <p>Pad thai</p>
     </div>
     
     <div class="box2">
-        <img src="images/shrimp-with-garlic.jpg" alt="mix-seafood-with-garlic">
-        <p>Mix-Seafood-With-Garlic</p>
+        <img src="images/red-curry-shrimp.jpg" alt="red-curry-shrimp">
+        <p>Red-Curry-Shrimp</p>
     </div>
     
     <div class="box3">
+        <img src="images/shrimp-with-garlic.jpg" alt="shrimp-with-garlic">
+        <p>Mix-Seafood-With-Garlic</p>
+    </div>
+    
+    <div class="box4">
+        <img src="images/bbq-chicken.jpg" alt="bbq-chicken">
+        <p>Bbq chicken></p>
+    </div>
+    
+    <div class="box5">
         <img src="images/mix-seafood.jpg" alt="mix-seafood">
         <p>Mix-Seafood</p>
     </div>
     
-    <div class="box4">
-        <img src="images/pad-thai.jpg" alt="pad thai">
-        <p>Pad Thai</p>
-    </div>
-    
-    <div class="box5">
-        <img src="images/red-curry-with-shrimp-in-pineapple.jpg" alt="red-curry-with-shrimp-in-pineapple">
+    <div class="box6">
+        <img src="images/red-curry-with-shrimp-in-pineapple.jpg" accesskey="red-curry-with-shrimp-in-pineapple">
         <p>Red-Curry-Shrimp-in-Pineapple</p>
     </div>
-    
-    <div class="box6">
-        <img src="images/red-curry-shrimp.jpg" alt="red-curry-shrimp">
-        <p>Red-Curry-Shrimp</p>
-    </div>
-          </div>
-
-
+          </div>-->
+        
+        
+   <!-- Add bukcets from tutorial -->
      
     </article>
-    
-  
-    
-    
  
     <footer>
-        <ul>
-            <a href="index.html">
-               <img src="images/logo1.svg" alt="logo" class="logo2">
-            </a>    
+        <a href="index.html">
+            <img src="images/logo1.svg" alt="logo" class="logo2">
+        </a> 
+        <ul>   
             <li><a href="food.html" class="selected">Food</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </footer>
-    
-    
-    
     
 </body>
 </html>

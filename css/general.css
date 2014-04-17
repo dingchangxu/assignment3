@@ -20,9 +20,7 @@ html {
     
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-family: 'Macondo Swash Caps', cursive;
 }
-
 
 img {
 	width: 100%;
@@ -35,7 +33,30 @@ body {
 
 header {
     overflow: hidden;
-    /*background-color: #cccc66;*/
+    padding: 0;
+}
+
+.home {
+    background-image: url(../images/food.jpg);
+}
+
+.home h1 {
+    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    margin: 3rem 5% 1.5rem;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.food {
+    background-image: url(../images/shrimp-with-garlic.jpg);
+}
+
+.food h1 {
+    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    margin: 1.5rem 5% 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
 }
 
 .logo {
@@ -81,13 +102,14 @@ header {
     height: 18rem;
 }
 
-/*.billboard h1 {
+.billboard h1 {
     margin: 6rem 0;
-} */
+}
 
-h3 {
+h2 {
     color: #cccc66;
-    margin: 1rem;
+    margin: 0 0 1.5rem;
+    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
 }
 
 article {
@@ -95,18 +117,103 @@ article {
     padding: 1rem 5%;
 }
 
+article li {
+    list-style-image:url(../images/chili.svg); 
+
+}
+
 p {
-    margin: 1rem;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.5rem;
 }
 
 
-div {
+
+
+
+
+
+
+
+
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: red; /* Visual Aid */
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: yellow; /* Visual Aid */
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.1 {
+    background-image: url(../images/placeholder-1.svg);  
+}
+
+.two {
+    background-image: url(../images/placeholder-2.svg);
+}
+
+.three {
+    background-image: url(../images/placeholder-3.svg);
+}
+
+.four {
+    background-image: url(../images/placeholder-4.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div {
     margin: 0;
     padding: 0;
     height: 12rem;
     width: 12rem;
     
-}
+} */
 
 /*h2 {
     text-align:  center;
@@ -114,21 +221,21 @@ div {
     padding: 0;
 }*/
 
-.boxes {
+/*.boxes {
     margin:0;
     padding:0;
     width: 100%;
     height: auto;
     overflow: hidden;
-    /*background-color: white;*/
+    /*background-color: white;
     border-color:white;
 }
 
 .boxes img {
-    width:80%;
+    width:50%;
     display: block;
     
-}
+} 
 
 .boxes p{
     margin: 0rem;
@@ -137,43 +244,8 @@ div {
     text-align: left;
     display: flex;
     
-}
+}*/
 
-.box1 {
-
-}
-
-.box2 {
-    
-}
-
-.box3 {
-    
-}
-
-.box4 {
-    
-}
-
-.box5 {
-    
-}
-
-.box6 {
-    
-}
-
-.box1, .box2, .box3, .box4, .box5, .box6 {
-    width: 32%;
-    height: 50%;
-    margin:0 0 1rem;
-    display:inline-block;
-}
-
-ul li {
-    list-style-image:url(../images/chili.svg); 
-
-}
 
 .logo2 {
     display: block;
@@ -198,6 +270,18 @@ ul li {
 
 footer {
     margin: 0;
-    padding: .3rem;
+    padding: 1.5rem 5%;
     background-color: #cccc66;
+}
+
+footer ul {
+    text-align:  center;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 2rem;
+    padding:  rem;
 }
