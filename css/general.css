@@ -101,8 +101,19 @@ header {
     display: block;
     height: 4rem;
     width: auto;
-    margin: .5rem auto;
-    
+    margin: .5rem auto;  
+}
+
+figcaption1 {
+    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    color: #660000;
+    font-size: 1rem;
+    text-align: center;
+}
+
+figcaption {
+    font-size: .75rem;
+    text-align: center;
 }
 
 .nav-top {
