@@ -40,8 +40,8 @@ header {
 
 .home {
     /*background-image: url(../images/food.jpg);*/
-    background-image: url(../images/shrimp-garlic1.jpg);
-    background-size: 20rem;
+    background-image: url(../images/shrimp-garlic2.jpg);
+    background-size: 19rem;
     background-position: center top;
     background-repeat: no-repeat;
     /*background-color: green;*/
@@ -52,11 +52,14 @@ header {
     margin: 3rem 5% 1.5rem;
     font-size: 2.8rem;
     text-align: center;
+    text-shadow: .15rem .15rem .05em #003300;
+    color: #cccc66;
+        
 }
 
 .food {
-    background-image: url(../images/shrimp-garlic1.jpg);
-    background-size: 20rem;
+    background-image: url(../images/shrimp-garlic2.jpg);
+    background-size: 19rem;
     background-position: center top;
     background-repeat: no-repeat;
     background-position: center center;
@@ -73,7 +76,7 @@ header {
 
 
 .about {
-    background-image: url(../images/pad-thai1.jpg);
+    background-image: url(../images/pad-thai2.jpg);
     background-size: 20rem;
     background-position: center top;
     background-repeat: no-repeat;
