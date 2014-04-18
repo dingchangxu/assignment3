@@ -39,7 +39,12 @@ header {
 }
 
 .home {
-    background-image: url(../images/food.jpg);
+    /*background-image: url(../images/food.jpg);*/
+    background-image: url(../images/shrimp-garlic1.jpg);
+    background-size: 20rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /*background-color: green;*/
 }
 
 .home h1 {
@@ -50,7 +55,12 @@ header {
 }
 
 .food {
-    background-image: url(../images/shrimp-with-garlic.jpg);
+    background-image: url(../images/shrimp-garlic1.jpg);
+    background-size: 20rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }
 
 .food h1 {
@@ -60,6 +70,27 @@ header {
     text-align: center;
     color: white;
 }
+
+
+.about {
+    background-image: url(../images/pad-thai1.jpg);
+    background-size: 20rem;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.about h1 {
+    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    margin: 1.5rem 5% 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+
 
 .logo {
     display: block;
@@ -93,7 +124,7 @@ header {
     font-size:1.25rem;
 }
 
-.billboard {
+/*.billboard {
     background-image: url(../images/food.jpg);
     padding: 0;
     background-size: 100%;
@@ -106,7 +137,7 @@ header {
 
 .billboard h1 {
     margin: 6rem 0;
-}
+}*/
 
 h2 {
     color: #cccc66;
@@ -120,8 +151,7 @@ article {
 }
 
 article li {
-    list-style-image:url(../images/chili.svg); 
-
+    list-style-image:url(../images/chili1.svg); 
 }
 
 p {
@@ -129,82 +159,33 @@ p {
     line-height: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-.bucket1 {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-    background-color: white; /* Visual Aid */
+.bucket1 { 
+    overflow:  hidden;
 }
 
-.bucket1 li {
-    float: left;
-    width: 45%;
-    margin: 0 10% 1.5rem 0;
-    padding: 0;
-}
-
-.bucket1 li:nth-child(even) {
+.bucket1 figure {
     margin: 0;
+    padding: 0;
 }
 
 .bucket1 a,
 .bucket1 a:link,
 .bucket1 a:visited {
-    display: block;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
+    float: left;
+    width: 45%; /* First and second buckets. 45% x 2 = 90% */ 
+    margin: 0 10% 1.5rem 0; /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+}
+
+/* THE PROBLEM: The sum total of figure + margin + figure must equal 100%. But we are currently over by 10% because all figures have right margin (figure + margin + figure + margin = 110%). We therefore need to use an "nth-child" to target every "even" (2nd, 4th etc.) figure to have no right margin. */
+
+.bucket1 a:nth-child(even) {/* every even numbered <figure> has no margin */
+    margin: 0;     
+}
+
+.bucket1 figcaption {
     background-color: white; /* Visual Aid */
-    margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
 }
-
-.one {
-    background-image: url(../images/pad thai.jpg);  
-}
-
-.two {
-    background-image: url(../images/placeholder-2.svg);
-}
-
-.three {
-    background-image: url(../images/placeholder-3.svg);
-}
-
-.four {
-    background-image: url(../images/placeholder-4.svg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -256,7 +237,7 @@ p {
     margin: .4rem auto;
 }
 
-.nav-btn,
+/*.nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
 	height: 90px;
@@ -269,7 +250,7 @@ p {
 	text-indent: 100%;
 	white-space: nowrap; 
 }
-
+*/
 footer {
     margin: 0;
     padding: 1.5rem 5%;
@@ -285,5 +266,5 @@ footer ul {
 footer li {
     display: inline;
     margin: 0 2rem;
-    padding:  rem;
+    padding: 0;
 }
