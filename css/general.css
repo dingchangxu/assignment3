@@ -36,29 +36,29 @@ body {
 header {
     overflow: hidden;
     padding: 0;
+    margin: auto;
 }
 
 .home {
     /*background-image: url(../images/food.jpg);*/
     background-image: url(../images/shrimp-garlic2.jpg);
-    background-size: 19rem;
+    background-size: 24rem;
     background-position: center top;
     background-repeat: no-repeat;
-    /*background-color: green;*/
 }
 
 .home h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 3rem 5% 1.5rem;
+    margin: 3.5rem 5% 1.5rem;
     font-size: 2.8rem;
     text-align: center;
-    text-shadow: .15rem .15rem .15em #003300;
+    text-shadow: .15rem .15rem .1rem #003300;
     color: #cccc66;
         
 }
 
 .food {
-    background-image: url(../images/shrimp-garlic2.jpg);
+    background-image: url(../images/red-curry-shrimp2.jpg);
     background-size: 19rem;
     background-position: center top;
     background-repeat: no-repeat;
@@ -68,10 +68,10 @@ header {
 
 .food h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 1.5rem 5% 1.5rem;
-    font-size: 2rem;
+    margin: 3rem 5% 1.5rem;
+    font-size: 2.8rem;
     text-align: center;
-    text-shadow: .15rem .15rem .15em #003300;
+    text-shadow: .15rem .15rem .1rem #003300;
     color: #cccc66;
 }
 
@@ -79,18 +79,18 @@ header {
 .about {
     background-image: url(../images/pad-thai2.jpg);
     background-size: 20rem;
-    background-position: center top;
+    background-position: center top;               /*???????*/
     background-repeat: no-repeat;
-    background-position: center center;
+    padding: 3 3 3rem;
     
 }
 
 .about h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 1.5rem 5% 1.5rem;
-    font-size: 2rem;
+    margin: 5rem 5% 1.5rem;
+    font-size: 2.8rem;
     text-align: center;
-    text-shadow: .15rem .15rem .15em #660000;
+    text-shadow: .15rem .15rem .1rem #003300;
     color: #cccc66;
 }
 
@@ -159,6 +159,7 @@ h2 {
     color: #cccc66;
     margin: 0 0 1.5rem;
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    text-shadow: .1rem .1rem .1rem #003300;
 }
 
 article {
