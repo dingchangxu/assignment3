@@ -62,8 +62,6 @@ header {
     background-size: 19rem;
     background-position: center top;
     background-repeat: no-repeat;
-    /*background-position: center center;*/
-    
 }
 
 .food h1 {
@@ -81,7 +79,7 @@ header {
     background-size: 20rem;
     background-position: center top;               /*???????*/
     background-repeat: no-repeat;
-    padding: 3 3 3rem;
+    padding: 0 0 3rem;
     
 }
 
@@ -254,24 +252,21 @@ p {
     margin: .4rem auto;
 }
 
-/*.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-	height: 90px;
-    width: 90px;
-	overflow: hidden;
+.link {
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
     position: absolute;
-    top: 70px;
-    right: 2%;
-	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
-	text-indent: 100%;
-	white-space: nowrap; 
+    
 }
-*/
+
 footer {
     margin: 0;
     padding: 1.5rem 5%;
     background-color: #cccc66;
+    display: inline;
 }
 
 footer ul {
