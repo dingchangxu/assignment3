@@ -23,7 +23,6 @@ html {
 
 img {
 	width: 100%;
-    text-shadow: .15rem .15rem .1rem #003300;
     
 }
 
@@ -73,7 +72,7 @@ header {
 .about {
     background-image: url(../images/pad-thai2.jpg);
     background-size: 13rem;
-    background-position: center right;       /*???????*/
+    background-position: center;       /*???????*/
     background-repeat: no-repeat;
 }
 
