@@ -72,7 +72,7 @@ header {
 .about {
     background-image: url(../images/pad-thai2.jpg);
     background-size: 13rem;
-    background-position: center;       /*???????*/
+    background-position: center ;       /*???????*/
     background-repeat: no-repeat;
 }
 
@@ -187,6 +187,10 @@ footer {
     background-color: #cccc66;
     height: 12rem;
     margin-top: -4rem;
+}
+
+ul {
+    
 }
 
 footer ul {
