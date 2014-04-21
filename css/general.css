@@ -38,15 +38,19 @@ header {
 }
 
 .home {
-    background-image: url(../images/shrimp-garlic2.jpg);
-    background-size: 30rem;
-    background-position: center .25rem;
+    /*background-image: url(../images/shrimp-garlic2.jpg);*/
+    background-image: url(../images/food.jpg);
+    background-size: 37rem;
+    background-position: center top.25rem;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0 0 10rem;
+    height: auto;
 }
 
 .home h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 11rem 5% 1.5rem;
+    margin: 2rem 5% 10rem;
     font-size: 2.8rem;
     text-align: center;
     text-shadow: .15rem .15rem .1rem #003300;
@@ -228,7 +232,7 @@ p {
 footer {
     overflow: hidden;
     clear: both;
-    padding: 1.5rem 5% 6rem;
+    padding: 1rem 20% 3rem;
     background-color: #cccc66;
 }
 
