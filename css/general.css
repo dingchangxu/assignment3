@@ -66,7 +66,7 @@ header {
 
 .food h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 4rem 5% 1.5rem;
+    margin: 4rem 5% 0rem;
     font-size: 2.8rem;
     text-align: center;
     text-shadow: .15rem .15rem .1rem #003300;
@@ -75,14 +75,14 @@ header {
 
 .about {
     background-image: url(../images/pad-thai2.jpg);
-    background-size: 13rem;
-    background-position: center ;       /*???????*/
+    background-size: 14rem;
+    background-position: center 5rem;       /*???????*/
     background-repeat: no-repeat;
 }
 
 .about h1 {
     font-family: 'Macondo Swash Caps', Georgia, Times, serif;
-    margin: 4rem 5% 1.5rem;
+    margin: 5rem 5% 0rem;
     font-size: 2.8rem;
     text-align: center;
     text-shadow: .15rem .15rem .1rem #003300;
