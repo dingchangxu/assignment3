@@ -195,7 +195,7 @@ p {
 }
 
 .social li {
-    float: center;
+    float: left;
     width: 30%;
     margin: 0 5% 1.5rem 0;
     padding: 0;
