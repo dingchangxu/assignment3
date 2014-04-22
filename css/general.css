@@ -58,9 +58,10 @@ header {
 
 .food {
     background-image: url(../images/red-curry-shrimp2.jpg);
-    background-size: 16rem;
+    background-size: 15rem;
     background-position: center 4rem;
     background-repeat: no-repeat;
+    
 }
 
 .food h1 {
