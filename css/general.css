@@ -48,7 +48,7 @@ header {
 }
 
 .home h1 {
-    font-family: 'Macondo'cursive, Georgia, Times, serif;
+    font-family: 'Macondo' 'cursive';
     margin: .1rem 5% 10rem;
     font-size: 2.8rem;
     text-align: center;
