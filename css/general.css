@@ -188,14 +188,14 @@ p {
 
 .social {
     margin: 0rem;
-    padding: 0 10%;
+    padding: 0 25%;
     overflow: hidden;
     list-style: none;
     /*background-color: red;  Visual Aid */
 }
 
 .social li {
-    float: left;
+    float: center;
     width: 30%;
     margin: 0 5% 1.5rem 0;
     padding: 0;
