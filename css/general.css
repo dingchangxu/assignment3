@@ -76,12 +76,12 @@ header {
 .about {
     background-image: url(../images/pad-thai2.jpg);
     background-size: 14rem;
-    background-position: center 5rem;       /*???????*/
+    background-position: center 5rem;
     background-repeat: no-repeat;
 }
 
 .about h1 {
-    font-family: 'Macondo Swash Caps', Georgia, Times, serif;
+    font-family: 'Macondo', Georgia, Times, serif;
     margin: 5rem 5% 0rem;
     font-size: 2.8rem;
     text-align: center;
